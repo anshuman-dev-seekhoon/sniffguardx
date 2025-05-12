@@ -45,9 +45,9 @@ def packet_capture(packet):
             
             
 def send_email_alert(file_path):
-    SENDER_EMAIL = "sanshuman066@gmail.com"
-    RECEIVER_EMAIL = "sanshuman066@gmail.com"
-    EMAIL_PASSWORD = "umxe cywm hbse gydp"
+    SENDER_EMAIL = "sender_email"
+    RECEIVER_EMAIL = "reciever_email"
+    EMAIL_PASSWORD = "your_password"
 
 
     msg = EmailMessage()
